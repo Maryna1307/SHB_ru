@@ -76,6 +76,13 @@
   font-style: normal;
 }
 @font-face {
+  font-family: MojitoWeb;
+  font-display: swap;
+  src: url("../fonts/MojitoWeb.ttf") format("ttf"), url("../fonts//MojitoWeb.woff2") format("woff2"), url("../fonts/MojitoWeb.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Kharkiv Tone 04';
   font-display: swap;
   src: url("../fonts/Kharkiv Tone 04.10.2020.ttf") format("ttf"), url("../fonts/Kharkiv Tone 04.10.2020.woff2") format("woff2"), url("../fonts/Kharkiv Tone 04.10.2020.woff") format("woff");

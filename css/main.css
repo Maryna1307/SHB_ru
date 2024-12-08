@@ -737,11 +737,11 @@ img {
 }
 .what-we-do__title {
   font-family: "Kharkiv Tone 04", sans-serif;
-  font-size: 200px;
+  font-size: 190px;
   font-weight: 400;
   margin-bottom: 23px;
-  word-spacing: 282px;
   position: relative;
+  word-spacing: 181px;
 }
 .we__icon {
   display: inline-block;
@@ -750,14 +750,13 @@ img {
   margin-right: -40px;
 }
 .what-we-do__title span {
-  font-family: "NeonBines", serif;
-  font-size: 232px;
+  font-family: "MojitoWeb", serif;
+  font-size: 274px;
   line-height: 1.35;
   color: #FF0054;
   position: absolute;
-  top: 37%;
-  left: 50%;
-  transform: translateY(-50%);
+  bottom: -23%;
+  left: 25%;
 }
 .what-we-do__descr {
   font-family: "Raleway", sans-serif;
@@ -1291,7 +1290,7 @@ img {
   font-weight: 800;
   margin: 0 auto 220px;
   padding-right: 146px;
-  max-width: 1100px;
+  max-width: 1333px;
   position: relative;
   text-transform: uppercase;
 }
@@ -1299,7 +1298,7 @@ img {
   font-weight: 400;
 }
 .why-us__title::after {
-  content: url(../img/why-us_question.png);
+  content: url(../img/why-us_question.svg);
   position: absolute;
   right: 0;
   top: 0;
@@ -1361,7 +1360,7 @@ img {
 }
 .why-us__item_title {
   font-family: "Neue Machina", sans-serif;
-  font-size: 63px;
+  font-size: 60px;
   font-weight: 400;
   margin-bottom: 48px;
 }
@@ -1683,8 +1682,8 @@ img {
     font-size: 22px;
   }
   .what-we-do__title {
-    font-size: 140px;
-    word-spacing: 227px;
+    font-size: 130px;
+    word-spacing: 126px;
   }
   .we__icon {
     width: 22%;
@@ -1797,7 +1796,13 @@ img {
     padding: 115px 67px 600px;
   }
   .why-us__title {
-    font-size: 175px;
+    font-size: 138px;
+    max-width: 1050px;
+    padding-right: 45px;
+    text-align: center;
+  }
+  .why-us__title::after {
+    content: url(../img/why-us_question_tablet.svg);
   }
   .why-us__items div:nth-of-type(1) {
     max-width: 340px;
@@ -1811,7 +1816,7 @@ img {
     margin-top: 175px;
   }
   .why-us__item_title {
-    font-size: 51px;
+    font-size: 49px;
     margin-bottom: 39px;
   }
   .why-us__item_text {
@@ -1974,11 +1979,11 @@ img {
     font-size: 102px;
   }
   .what-we-do__title {
-    font-size: 125px;
-    word-spacing: 170px;
+    font-size: 110px;
+    word-spacing: 99px;
   }
   .what-we-do__title span {
-    font-size: 145px;
+    font-size: 155px;
   }
   .what-we-do__descr {
     font-size: 19px;
@@ -1993,6 +1998,7 @@ img {
   .services .spoiler__title span {
     font-size: 17.5px;
     margin-right: 70px;
+    -webkit-text-stroke: 0.63px;
   }
   .services .spoiler__descr {
     justify-content: space-between;
@@ -2054,8 +2060,9 @@ img {
     padding: 115px 51px 600px;
   }
   .why-us__title {
-    font-size: 141px;
-    text-align: right;
+    font-size: 118px;
+    max-width: 890px;
+    padding-right: 60px;
   }
   .why-us__items div:nth-of-type(1) {
     max-width: 262px;
@@ -2069,7 +2076,7 @@ img {
     margin-top: 175px;
   }
   .why-us__item_title {
-    font-size: 40px;
+    font-size: 37px;
     margin-bottom: 30px;
   }
   .why-us__item_text {
@@ -2319,13 +2326,12 @@ img {
     padding-bottom: 0;
   }
   .what-we-do__title {
-    font-size: 90px;
-    word-spacing: 134px;
+    font-size: 75px;
+    word-spacing: 67px;
     margin-bottom: 35px;
   }
   .what-we-do__title span {
-    font-size: 113px;
-    left: 48%;
+    font-size: 106px;
   }
   .what-we-do__descr {
     font-size: 30px;
@@ -2346,6 +2352,7 @@ img {
   .services .spoiler__title span {
     font-size: 20px;
     margin-right: 40px;
+    -webkit-text-stroke: 0.4px;
   }
   .services .spoiler__descr {
     flex-direction: column-reverse;
@@ -2424,13 +2431,13 @@ img {
     display: none;
   }
   .why-us__title {
-    font-size: 118px;
-    max-width: 695px;
+    font-size: 104px;
+    max-width: 768px;
     padding-right: 90px;
     margin-bottom: 220px;
   }
   .why-us__title::after {
-    content: url(../img/why-us_question_tablet.png);
+    content: url(../img/why-us_question_tablet.svg);
   }
   .why-us__items {
     max-width: 534px;
@@ -2713,8 +2720,8 @@ img {
     padding: 47px 0px 55px;
   }
   .what-we-do__title {
-    font-size: 44px;
-    word-spacing: 65px;
+    font-size: 46px;
+    word-spacing: 44px;
     margin-bottom: 20px;
   }
   .we__icon {
@@ -2723,7 +2730,7 @@ img {
     margin-right: -11px;
   }
   .what-we-do__title span {
-    font-size: 53px;
+    font-size: 66px;
   }
   .what-we-do__descr {
     font-size: 14px;
@@ -2736,6 +2743,7 @@ img {
   .services .spoiler__title span {
     font-size: 12px;
     margin-right: 19px;
+    -webkit-text-stroke: 0.19px;
   }
   .services .spoiler__descr {
     padding-left: 30px;
@@ -2793,14 +2801,13 @@ img {
     border-radius: 6px;
   }
   .why-us__title {
-    font-size: 55px;
-    max-width: 340px;
-    padding-right: 49px;
+    font-size: 45px;
+    max-width: 343px;
+    padding-right: 35px;
     margin-bottom: 138px;
-    text-align: center;
   }
   .why-us__title::after {
-    content: url(../img/why-us_question_mobile.png);
+    content: url(../img/why-us_question_mobile.svg);
   }
   .why-us__items {
     max-width: 350px;
@@ -2938,6 +2945,10 @@ img {
   }
   .what-we-do__title {
     font-size: 40px;
+    word-spacing: 40px;
+  }
+  .what-we-do__title span {
+    font-size: 59px;
   }
   .services .spoiler__title {
     font-size: 18px;
@@ -2951,7 +2962,10 @@ img {
     padding: 30px;
   }
   .why-us__title{
-    font-size: 47px;
+    font-size: 38px;
+  }
+  .why-us__title::after{
+    top: -23%;
   }
   .clients__info {
     right: 10px;
